@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uz"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rishton Art Choyxonasi</title><meta name="description" content="Rishton Art choyxonasi — xona band qilish, buyurtma va yetkazib berish">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b2e23;--bg2:#103c2f;--card:#134636;--ink:#f3ead6;--mut:#a9bfae;--gold:#d9b45a;--red:#e0674f;--ok:#7fd1a0;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:70px;scroll-behavior:smooth}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 Manrope,system-ui,sans-serif}
+h1,h2,h3{font-family:Marcellus,Georgia,serif;font-weight:400;margin:0;letter-spacing:.04em}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;align-items:center;gap:14px;padding:10px 18px;background:rgba(11,46,35,.92);backdrop-filter:blur(8px);border-bottom:1px solid #ffffff1a;overflow-x:auto}
+nav a{color:var(--ink);text-decoration:none;font-weight:600;font-size:14px;white-space:nowrap}nav a.b{margin-left:auto;color:var(--gold)}
+.logo{width:34px;height:34px;flex:none}
+section{max-width:1000px;margin:auto;padding:46px 18px}
+.hero{text-align:center;padding-top:50px;background:radial-gradient(circle at 50% 0,#17543f 0,transparent 60%)}
+.hero .logo{width:150px;height:150px}.hero h1{font-size:clamp(34px,8vw,64px);margin-top:14px}
+.hero p{color:var(--mut);max-width:480px;margin:10px auto 22px}
+.orn{color:var(--gold);letter-spacing:.5em;font-size:13px}
+.btn{background:var(--gold);color:#1b2a1f;border:0;border-radius:10px;padding:12px 20px;font:800 15px Manrope,sans-serif;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.g{background:transparent;color:var(--ink);border:1px solid #ffffff40}.btn.r{background:var(--red);color:#fff}.btn.s{padding:7px 12px;font-size:13px}
+h2{font-size:30px;margin-bottom:6px}.sub{color:var(--mut);margin:0 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px}
+.room{background:var(--card);border:1px solid #ffffff1f;border-radius:14px;padding:14px;text-align:center;cursor:pointer}
+.room b{font:400 34px Marcellus,serif;color:var(--gold);display:block}.room small{font-weight:700}
+.room.x{border-color:var(--red);opacity:.85;cursor:not-allowed}.room.x b{color:var(--red)}.room.f small{color:var(--ok)}.room.x small{color:var(--red)}
+.room.sel{outline:2px solid var(--gold)}.room .btn{margin-top:8px;width:100%}
+.panel{background:var(--bg2);border:1px solid #ffffff1a;border-radius:16px;padding:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:760px){.two{grid-template-columns:1fr}}
+label{display:block;font-size:13px;color:var(--mut);margin:10px 0 4px}
+input,select{width:100%;padding:11px;border-radius:9px;border:1px solid #ffffff30;background:#0b2e23;color:var(--ink);font:inherit}
+.seg{display:flex;gap:8px}.seg button{flex:1}
+.it{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 0;border-bottom:1px dashed #ffffff22}
+.it span em{display:block;font-style:normal;color:var(--gold);font-size:13px}
+.q{display:flex;align-items:center;gap:8px}.q button{width:30px;height:30px;border-radius:50%;border:1px solid var(--gold);background:none;color:var(--gold);font-size:18px;cursor:pointer}
+.tot{display:flex;justify-content:space-between;font:400 22px Marcellus,serif;margin-top:12px;color:var(--gold)}
+.chek{position:relative;background:#fbf6e9;color:#2a2a24;padding:22px 18px 26px;margin:12px 0 14px;font:600 14px Manrope,sans-serif;text-align:left;border-top:6px solid var(--gold);box-shadow:0 10px 30px #0006}.chek::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:8px;background:linear-gradient(135deg,#fbf6e9 6px,transparent 0),linear-gradient(-135deg,#fbf6e9 6px,transparent 0);background-size:12px 12px}
+.cl{width:56px;height:56px;display:block;margin:0 auto 6px}.chek h3{text-align:center;color:#0b2e23;font-size:22px}.cs{text-align:center;color:#7a7a6a;font-size:12px;letter-spacing:.12em;text-transform:uppercase}.no{text-align:center;font:400 28px Marcellus,serif;color:#b8923a;margin:6px 0 10px}.m,.l{display:flex;justify-content:space-between;gap:10px;padding:3px 0}.m span{color:#7a7a6a}.l i{font-style:normal;color:#7a7a6a}.sep{border-top:2px dotted #c9bd9b;margin:10px 0}.tt{font:400 22px Marcellus,serif;color:#0b2e23}
+.paid{color:#1c7a45;font-weight:800;text-align:center}
+.tag{display:inline-block;background:var(--gold);color:#1b2a1f;border-radius:99px;padding:2px 10px;font-weight:800;font-size:13px}
+#ov{position:fixed;inset:0;background:#000a;display:none;place-items:center;z-index:9;padding:18px}#ov.on{display:grid}
+#ov .panel{max-width:380px;width:100%;text-align:center}.big{font:400 64px Marcellus,serif;color:var(--gold)}
+footer{text-align:center;color:var(--mut);padding:30px;font-size:13px}
+.bar{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:6;max-width:520px;margin:auto;background:var(--gold);color:#1b2a1f;border-radius:14px;padding:12px 16px;display:none;justify-content:space-between;align-items:center;font-weight:800;box-shadow:0 8px 24px #0008;cursor:pointer}.bar.on{display:flex}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}.stats div{background:var(--bg2);border:1px solid #ffffff1a;border-radius:12px;padding:12px}.stats b{display:block;font:400 20px Marcellus,serif;color:var(--gold)}.stats span{color:var(--mut);font-size:12px}:focus-visible{outline:2px solid var(--gold);outline-offset:2px}@media print{body>*:not(#ov){display:none!important}#ov{position:static;background:none;display:block!important}#ov .btn{display:none}}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs><symbol id="lg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="49" fill="#0f3b2e" stroke="#d9b45a" stroke-width="1.5"/><g fill="none" stroke="#f3ead6"><rect x="41" y="26" width="18" height="18" transform="rotate(45 50 35)" stroke-width="1.4"/><rect x="45" y="30" width="10" height="10" transform="rotate(45 50 35)" stroke="#d9b45a"/></g><text x="50" y="62" text-anchor="middle" font-family="Marcellus,serif" font-size="13" letter-spacing="1.5" fill="#f3ead6">RISHTON</text><text x="50" y="73" text-anchor="middle" font-family="Marcellus,serif" font-size="6" letter-spacing="3" fill="#d9b45a">ART</text></symbol></defs></svg>
+<nav><svg class="logo"><use href="#lg"/></svg><a href="#xonalar">Xonalar</a><a href="#buyurtma">Buyurtma</a><a href="#chek">Chekim</a><a class="b" href="#" id="reg">Registratsiya</a><a href="#" id="adl" style="color:var(--gold)">Kirish</a></nav>
+
+<section class="hero"><svg class="logo"><use href="#lg"/></svg><div class="orn">◆ ◆ ◆</div><h1>Rishton Art</h1><p>Choyxona — 15 ta xona, mazali taomlar va uyingizgacha yetkazib berish.</p><a class="btn" href="#buyurtma">Buyurtma berish</a> <a class="btn g" href="#xonalar">Xonalarni ko’rish</a></section>
+
+<section id="xonalar"><h2>Xonalar</h2><p class="sub">Xonani tanlang — bo’sh xonalar yashil, band xonalar qizil rangda.</p><div class="grid" id="rooms"></div><p class="sub" id="fc" style="margin-top:14px"></p></section>
+
+<section id="buyurtma"><h2>Buyurtma</h2><p class="sub">Birinchi buyurtmada sizga raqam beriladi. Keyingi buyurtmalar shu raqam bilan bitta chekka qo’shiladi.</p>
+<div class="two"><div class="panel" id="menu"></div>
+<div class="panel"><div class="seg"><button class="btn s" id="tH">Choyxonada</button><button class="btn g s" id="tD">Yetkazib berish</button></div>
+<label>Raqamim bor (ixtiyoriy)</label><input id="num" inputmode="numeric" placeholder="Masalan: 101">
+<label>Ismingiz</label><input id="nm"><label>Telefon</label><input id="ph" type="tel" placeholder="+998">
+<div id="hF"><label>Xona</label><select id="rs"></select><label>Sana va vaqt</label><input id="dt" type="datetime-local"></div>
+<div id="dF" hidden><label>Manzil</label><input id="ad" placeholder="Ko’cha, uy, mo’ljal"></div>
+<div id="sum"></div><button class="btn" style="width:100%;margin-top:14px" id="go">Buyurtma berish</button></div></div></section>
+
+<section id="chek"><h2>Mening chekim</h2><p class="sub">Raqamingizni kiriting va hisobni ko’ring.</p>
+<div style="display:flex;gap:8px;max-width:360px"><input id="cn" inputmode="numeric" placeholder="Raqam"><button class="btn" id="cb">Ko’rish</button></div><div id="cr" style="max-width:380px"></div></section>
+
+<section id="admin" hidden><h2>Admin panel</h2><p class="sub">Xona ustiga bosing: “Odam bor” yoki “Zakaz qilingan” ni tanlang. Mijozlarga “Odam bor” yoki “Zanet” deb ko’rinadi.</p>
+<div class="stats" id="st"></div><button class="btn g s" id="lo" style="margin-bottom:14px">Chiqish</button><div class="grid" id="ar"></div>
+<div class="panel" style="margin-top:18px"><h3>Yetkazib berish narxi</h3><div style="display:flex;gap:8px;max-width:320px;margin-top:8px"><input id="fee" inputmode="numeric"><button class="btn s" id="fb">Saqlash</button></div></div>
+<h3 style="margin:26px 0 10px">Chekka taom qo’shish</h3><div class="panel"><div style="display:flex;gap:8px;flex-wrap:wrap"><input id="an" placeholder="Raqam" style="max-width:120px" inputmode="numeric"><select id="am" style="max-width:240px"></select><input id="aq" value="1" style="max-width:80px" inputmode="numeric"><button class="btn s" id="ab">Qo’shish</button></div></div>
+<h3 style="margin:26px 0 10px">Ro’yxatdan o’tganlar (login va parol)</h3><div class="panel" id="ul"></div>
+<h3 style="margin:26px 0 10px">Barcha cheklar</h3><div id="al" class="two"></div></section>
+
+<footer>© Rishton Art choyxonasi</footer>
+<div class="bar" id="bar"></div>
+<div id="ov"><div class="panel" id="ovc"></div></div>
+
+<script>
+const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])),fmt=n=>n.toLocaleString("ru-RU")+" so’m";
+const M=[[1,"Non",5000],[2,"Osh (palov)",30000],[3,"Lag’mon",25000],[4,"Shashlik",10000],[5,"Somsa",8000],[6,"Manti",20000],[7,"Sho’rva",22000],[8,"Dimlama",35000],[9,"Salat",12000],[10,"Choy (choynak)",6000],[11,"Kompot",8000]],P=Object.fromEntries(M.map(m=>[m[0],m]));
+let D;try{D=JSON.parse(localStorage.getItem("ra1"))}catch(e){}D=D||{r:{},c:[],n:101,fee:10000};
+const save=()=>{try{localStorage.setItem("ra1",JSON.stringify(D))}catch(e){}};
+let cart={},ty="h",sel=0,A=false;
+const total=c=>Object.entries(c.it).reduce((s,[i,q])=>s+P[i][2]*q,0)+(c.ty=="d"?c.fee:0);
+function chek(c){const rows=Object.entries(c.it).map(([i,q])=>`<div class="l"><span>${P[i][1]} <i>× ${q}</i></span><span>${fmt(P[i][2]*q)}</span></div>`).join("")||'<div class="l"><span>Hali taom yo’q</span></div>';
+return `<div class="chek"><svg class="cl"><use href="#lg"/></svg><h3>RISHTON ART</h3><div class="cs">Choyxonasi</div><div class="no">№ ${c.n}</div><div class="m"><span>Mijoz</span><b>${esc(c.nm)}</b></div><div class="m"><span>${c.ty=="d"?"Manzil":"Xona"}</span><b>${c.ty=="d"?esc(c.ad):(c.room||"—")}</b></div>${c.dt&&c.ty!="d"?`<div class="m"><span>Vaqt</span><b>${esc(c.dt.replace("T"," "))}</b></div>`:""}<div class="sep"></div>${rows}${c.ty=="d"?`<div class="l"><span>Dastavka</span><span>${fmt(c.fee)}</span></div>`:""}<div class="sep"></div><div class="l tt"><span>JAMI</span><span>${fmt(total(c))}</span></div>${c.paid?'<div class="paid">✓ TO’LANDI</div>':'<div class="cs">To’lanmagan</div>'}<div class="cs" style="margin-top:12px">Rahmat! Yana kutamiz 🍵</div></div>`}
+function chekOLD(c){return `<div class="chek"><h3>RISHTON ART</h3><div style="text-align:center">Chek №${c.n} · ${esc(c.nm)}</div><div style="text-align:center">${c.ty=="d"?"Yetkazib berish: "+esc(c.ad):"Xona: "+(c.room||"—")+(c.dt?" · "+esc(c.dt.replace("T"," ")):"")}</div><hr>${Object.entries(c.it).map(([i,q])=>`<div class="l"><span>${P[i][1]} × ${q}</span><span>${fmt(P[i][2]*q)}</span></div>`).join("")||"<div>Hali taom yo’q</div>"}${c.ty=="d"?`<div class="l"><span>Dastavka</span><span>${fmt(c.fee)}</span></div>`:""}<hr><div class="l"><b>JAMI</b><b>${fmt(total(c))}</b></div>${c.paid?'<div class="paid">✓ TO’LANDI</div>':""}</div>`}
+function rooms(){$("#fc").textContent="Bo’sh xonalar: "+[...Array(15)].filter((_,k)=>!D.r[k+1]).length+" / 15";const h=[];for(let i=1;i<=15;i++){const x=D.r[i];h.push(`<div class="room ${x?"x":"f"} ${sel==i?"sel":""}" onclick="pick(${i})"><b>${i}</b><small>${x=="z"?"Odam bor":x?"Zanet":"Bo’sh"}</small></div>`)}$("#rooms").innerHTML=h.join("");
+$("#rs").innerHTML='<option value="">Tanlang</option>'+[...Array(15)].map((_,k)=>k+1).filter(i=>!D.r[i]).map(i=>`<option ${sel==i?"selected":""}>${i}</option>`).join("");
+$("#ar").innerHTML=[...Array(15)].map((_,k)=>{const i=k+1,x=D.r[i];return `<div class="room ${x?"x":"f"}" onclick="ap(${i})"><b>${i}</b><small>${x=="o"?"Zakaz qilingan":x=="z"?"Odam bor":x?"Zanet":"Bo’sh"}</small></div>`}).join("")}
+const pick=i=>{if(D.r[i])return toast("Bu xona hozir band");sel=i;rooms();$("#rs").value=i;$("#buyurtma").scrollIntoView()};
+const ap=i=>show(`<h3>${i}-xona</h3><p class="sub">Mijozlarga: “Odam bor” yoki “Zanet” deb ko’rinadi.</p><div style="display:grid;gap:8px"><button class="btn" onclick="sr(${i},'z')">Odam bor</button><button class="btn r" onclick="sr(${i},'o')">Zakaz qilingan</button><button class="btn g s" onclick="sr(${i},0)">Bo’sh qilish</button></div>`),sr=(i,v)=>{D.r[i]=v;save();rooms();ov.classList.remove("on")};
+function menu(){$("#menu").innerHTML=M.map(m=>`<div class="it"><span>${m[1]}<em>${fmt(m[2])}</em></span><div class="q"><button onclick="qt(${m[0]},-1)">−</button><b>${cart[m[0]]||0}</b><button onclick="qt(${m[0]},1)">+</button></div></div>`).join("");
+$("#am").innerHTML=M.map(m=>`<option value="${m[0]}">${m[1]}</option>`).join("");sum()}
+const qt=(i,d)=>{cart[i]=Math.max(0,(cart[i]||0)+d);if(!cart[i])delete cart[i];menu()};
+function sum(){const s=Object.entries(cart).reduce((a,[i,q])=>a+P[i][2]*q,0);const n=Object.values(cart).reduce((a,b)=>a+b,0);$("#bar").className="bar"+(n?" on":"");$("#bar").innerHTML=`<span>🛒 ${n} ta · ${fmt(s+(ty=="d"?D.fee:0))}</span><span>Buyurtma ➜</span>`;$("#sum").innerHTML=`<div class="it"><span>Taomlar</span><b>${fmt(s)}</b></div>`+(ty=="d"?`<div class="it"><span>Dastavka</span><b>${fmt(D.fee)}</b></div>`:"")+`<div class="tot"><span>Jami</span><span>${fmt(s+(ty=="d"?D.fee:0))}</span></div>`}
+function setTy(t){ty=t;$("#tH").className="btn s"+(t=="h"?"":" g");$("#tD").className="btn s"+(t=="d"?"":" g");$("#hF").hidden=t=="d";$("#dF").hidden=t=="h";sum()}
+$("#tH").onclick=()=>setTy("h");$("#tD").onclick=()=>setTy("d");
+const ov=document.getElementById("ov"),show=h=>{$("#ovc").innerHTML=h+'<button class="btn" style="margin-top:14px" onclick="ov.classList.remove(\'on\')">Yopish</button>';ov.classList.add("on")},toast=m=>show(`<p>${m}</p>`);
+$("#go").onclick=()=>{if(!Object.keys(cart).length)return toast("Avval taom tanlang");
+let n=+$("#num").value,c=D.c.find(x=>x.n==n);
+if(n&&!c)return toast("Bunday raqam topilmadi");
+if(!c){const nm=$("#nm").value.trim(),ph=$("#ph").value.trim();if(!nm||!ph)return toast("Ism va telefonni kiriting");if(ph.replace(/\D/g,"").length<9)return toast("Telefon raqamini to’g’ri kiriting");
+if(ty=="d"&&!$("#ad").value.trim())return toast("Manzilni kiriting");
+if(ty=="h"&&!$("#rs").value)return toast("Xonani tanlang");
+if(ty=="h"&&D.r[$("#rs").value])return toast("Bu xona band");
+c={n:D.n++,nm,ph,ty,room:ty=="h"?+$("#rs").value:0,dt:$("#dt").value,ad:$("#ad").value.trim(),fee:D.fee,it:{},paid:false};D.c.push(c);if(c.room)D.r[c.room]="o"}
+for(const[i,q]of Object.entries(cart))c.it[i]=(c.it[i]||0)+q;cart={};sel=0;D.my=c.n;$("#cn").value=c.n;save();menu();adminList();rooms();
+show(`<p>Sizning raqamingiz</p><div class="big">${c.n}</div><p>Shu raqam bilan keyingi buyurtmalar ham shu chekka qo’shiladi.</p>`+chek(c))};
+$("#cb").onclick=()=>{const c=D.c.find(x=>x.n==+$("#cn").value);$("#cr").innerHTML=c?chek(c):"<p class='sub'>Bunday raqam topilmadi</p>"};
+function opn(){try{sessionStorage.setItem("ra_a","1")}catch(e){}A=true;$("#admin").hidden=false;$("#adl").textContent="Admin";$("#fee").value=D.fee;rooms();adminList();$("#admin").scrollIntoView()}
+$("#adl").onclick=e=>{e.preventDefault();if(A){$("#admin").scrollIntoView();return}show('<h3>Kirish</h3><label>Login</label><input id="li"><label>Parol</label><input id="pw" type="password"><button class="btn" style="width:100%;margin-top:12px" onclick="lg()">Kirish</button>')};
+const lg=()=>{const l=$("#li").value.trim(),p=$("#pw").value;if(l=="1979"&&p=="1979"){ov.classList.remove("on");opn();return}const u=(D.u||[]).find(x=>x.ph==l&&x.pw==p);if(u){$("#nm").value=u.nm;$("#ph").value=u.ph;$("#reg").textContent=u.nm;show(`<p>Xush kelibsiz, ${esc(u.nm)}!</p>`)}else $("#ovc").insertAdjacentHTML("afterbegin",'<p style="color:var(--red)">Login yoki parol noto’g’ri</p>')};
+$("#reg").onclick=e=>{e.preventDefault();show('<h3>Registratsiya</h3><label>Ism</label><input id="rn"><label>Telefon (login bo’ladi)</label><input id="rp" type="tel"><label>Parol</label><input id="rw" type="password"><button class="btn" style="width:100%;margin-top:12px" onclick="rg()">Ro’yxatdan o’tish</button>')};
+const rg=()=>{const nm=$("#rn").value.trim(),ph=$("#rp").value.trim(),pw=$("#rw").value;if(!nm||!ph||!pw)return toast("Hamma maydonni to’ldiring");D.u=D.u||[];if(D.u.find(x=>x.ph==ph))return toast("Bu telefon allaqachon ro’yxatdan o’tgan");D.u.push({nm,ph,pw});save();adminList();$("#nm").value=nm;$("#ph").value=ph;$("#reg").textContent=nm;show(`<p>Ro’yxatdan o’tdingiz, ${esc(nm)}!</p>`)};
+$("#lo").onclick=()=>{try{sessionStorage.removeItem("ra_a")}catch(e){}A=false;$("#admin").hidden=true;$("#adl").textContent="Kirish";scrollTo(0,0)};$("#fb").onclick=()=>{D.fee=+$("#fee").value||0;save();sum();toast("Saqlandi")};
+$("#ab").onclick=()=>{const c=D.c.find(x=>x.n==+$("#an").value);if(!c)return toast("Raqam topilmadi");const i=$("#am").value;c.it[i]=(c.it[i]||0)+(+$("#aq").value||1);save();adminList()};
+function adminList(){const T=D.c.reduce((a,c)=>(a[c.paid?0:1]+=total(c),a),[0,0]);$("#st").innerHTML=`<div><b>${D.c.length}</b><span>Cheklar</span></div><div><b>${fmt(T[0])}</b><span>To’langan</span></div><div><b>${fmt(T[1])}</b><span>To’lanmagan</span></div><div><b>${Object.values(D.r).filter(Boolean).length}/15</b><span>Band xonalar</span></div>`;$("#ul").innerHTML=(D.u||[]).map(u=>`<div class="it"><span><b>${esc(u.nm)}</b><em>Login: ${esc(u.ph)} · Parol: ${esc(u.pw)}</em></span></div>`).join("")||'<p class="sub" style="margin:0">Hali hech kim ro’yxatdan o’tmagan</p>';$("#al").innerHTML=D.c.slice().reverse().map(c=>`<div>${chek(c)}<div style="display:flex;gap:6px;margin-top:6px"><button class="btn s" onclick="pd(${c.n})">${c.paid?"To’lanmadi":"To’landi"}</button><button class="btn s g" onclick="pr(${c.n})">Chop etish</button><button class="btn s r" onclick="dl(${c.n})">O’chirish</button></div></div>`).join("")||'<p class="sub">Hali cheklar yo’q</p>'}
+const pd=n=>{const c=D.c.find(x=>x.n==n);c.paid=!c.paid;save();adminList()},dl=n=>show(`<p>${n}-chekni o’chirasizmi?</p><button class="btn r" onclick="dl2(${n})">Ha, o’chirish</button>`),dl2=n=>{D.c=D.c.filter(x=>x.n!=n);save();adminList();ov.classList.remove("on")},pr=n=>{show(chek(D.c.find(x=>x.n==n)));setTimeout(()=>print(),300)};
+rooms();menu();setTy("h");
+$("#dt").min=new Date(Date.now()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,16);
+$("#bar").onclick=()=>$("#go").scrollIntoView({block:"center"});
+ov.onclick=e=>{if(e.target==ov)ov.classList.remove("on")};
+addEventListener("keydown",e=>{if(e.key=="Escape")ov.classList.remove("on");if(e.key=="Enter"&&ov.classList.contains("on")&&e.target.tagName=="INPUT"){const b=$("#ovc button.btn:not(.g)");if(b)b.click()}});
+$("#cn").onkeydown=e=>{if(e.key=="Enter")$("#cb").click()};
+if(D.my){$("#cn").value=D.my;$("#cb").click()}
+try{if(sessionStorage.getItem("ra_a")){A=true;$("#admin").hidden=false;$("#adl").textContent="Admin";$("#fee").value=D.fee;adminList()}}catch(e){}
+</script></body></html>
